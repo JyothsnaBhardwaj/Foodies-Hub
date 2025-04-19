@@ -212,7 +212,7 @@ footer{
 
 }
 
-.container{
+.container{     /*defining container class for background of login page*/
     position:absolute;
     background-image: linear-gradient(rgba(0,0,50,0.8),rgba(234, 243, 223, 0.8)), url(bg-image.png);
     background-size: cover;
