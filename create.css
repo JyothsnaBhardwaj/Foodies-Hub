@@ -3,7 +3,7 @@
     height: 130px; /*height of header*/
     margin: auto;
     color:rgb(75, 15, 15);
-    text-align: center;
+    text-align: center;   /*centre alligntment*/
 }
 /* Header paragraph styling */
 .header p{
