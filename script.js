@@ -1,3 +1,4 @@
+// validation of username and password
 const validUsername = "user";
 const validPassword = "pass123";
 
