@@ -221,7 +221,7 @@ footer{
     background-position: center;
 }
 
-.form-box{
+.form-box{  /*design for form box for login page*/
     text-align: center;
     border-radius: 5px;
     box-shadow:  0 0 10px rgba(0, 0, 0,0.1);
