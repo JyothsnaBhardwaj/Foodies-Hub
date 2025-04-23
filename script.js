@@ -17,6 +17,7 @@ function validateLogin(event) {
     usernameError.style.display = "none";
     passwordError.style.display = "none";
 
+    // validate username and show error if it doesn't match
     if (username.value !== validUsername) {
         usernameError.textContent = "Invalid Username";
         usernameError.style.display = "block";
