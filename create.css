@@ -17,21 +17,21 @@
     font-size:115%;
     width: 80%;
     padding: 20px;
-    text-align: center;
+    text-align: center; /*this is making the text in centre alignments*/
     margin:0%;
     list-style-type: none;
     text-decoration: none;
     font-style: normal;
-}
-.header input{
+}  /*this is taking the input for the headers by nandita */
+.header input{  
     float: none;
     width: 40%;
     height: 25px;
     display:inline-block;
     margin:10px;
-    border:white;
+    border:white;  /*nandita chnage in css in input taggs*/
     padding-top:5px;
-    margin-bottom:15px;
+    margin-bottom:15px; 
 }
 
 .header a:hover{
@@ -181,7 +181,7 @@ button {
     cursor: pointer;
 }
 
-footer{
+footer{  /*this is about the footer tag*/
     background-color: rgb(250, 196, 59);
     height:50px;
     margin: auto;
