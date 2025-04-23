@@ -1,15 +1,15 @@
 .header{
-    background-color: rgb(250, 196, 59);
-    height: 130px;
+    background-color: rgb(250, 196, 59); /*yellow colour*/
+    height: 130px; /*height of header*/
     margin: auto;
     color:rgb(75, 15, 15);
-    text-align: center;
+    text-align: center;   /*centre alligntment*/
 }
-
+/* Header paragraph styling */
 .header p{
     font-family: Garamond, serif;
     font-size: 200%;
-    text-align: left;
+    text-align: left;     /*left allignment*/
 }
 .header div a{
     display: inline;
