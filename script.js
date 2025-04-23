@@ -29,7 +29,7 @@ function validateLogin(event) {
         passwordError.style.display = "block";
         isValid = false;
     }
-
+    //Redirect if input is valid
     if (isValid) {
         window.location.href = "./pages/FEE(project).html";
     }
