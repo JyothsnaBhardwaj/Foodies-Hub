@@ -24,11 +24,13 @@ function validateLogin(event) {
         isValid = false;
     }
 
+    //validate password and show error if it doesnt't match
     if (password.value !== validPassword) {
         passwordError.textContent = "Invalid Password";
         passwordError.style.display = "block";
         isValid = false;
     }
+    
     //Redirect if input is valid
     if (isValid) {
         window.location.href = "./pages/FEE(project).html";
