@@ -89,7 +89,7 @@ form div{
     padding: 16px;
 }
 
-span.psw {
+span.psw { /*For enter various box dimensions*/
     float: right;
     padding-top: 16px;
     text-decoration: none;
