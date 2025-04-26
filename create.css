@@ -48,7 +48,7 @@
     color: blue;
 }
 header form{
-    border: 3px solid #f1f1f1;
+    border: 3px solid #f1f1f1; /*solid header text by nanditaa*/
     height: fit-content;
     width: fit-content;
     box-shadow: #ccc;
@@ -68,7 +68,7 @@ form button{
     background-color: paleturquoise;
     color: blue;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 0; /*margin tag*/
     border: none;
     cursor: pointer;
     width: 100%;
@@ -77,7 +77,7 @@ form button{
 
 form button:hover {
     opacity: 0.8;
-}
+} /*form nutton hover board*/
 
 .cancelbtn{
     width:auto;
@@ -96,7 +96,7 @@ span.psw {
 }
 
 span a{
-    text-decoration: none;
+    text-decoration: none; /*text decoration is none */
 }
   
 .content{
@@ -134,7 +134,7 @@ span a{
 
 .post h2{
     color:darkmagenta;
-    font-style:oblique;
+    font-style:oblique;/*post color is darkmagenta*/
 }
 .post h3{
     color:brown;
@@ -147,7 +147,7 @@ span a{
     margin-top: 20px;
 }
 
-#comments-container {
+#comments-container { /*container tag in comments*/
     margin-top: 10px;
     border-top: 1px solid #ccc;
     padding-top: 10px;
@@ -166,7 +166,7 @@ span a{
 }
 
 #comment-input {
-    padding: 10px;
+    padding: 10px;  /*padding is 10px in comment input */
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
