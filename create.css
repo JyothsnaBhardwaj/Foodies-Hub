@@ -96,7 +96,7 @@ span.psw {
 }
 
 span a{
-    text-decoration: none;
+    text-decoration: none; /*text decoration is none */
 }
   
 .content{
