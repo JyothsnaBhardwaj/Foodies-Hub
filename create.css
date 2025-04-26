@@ -24,7 +24,7 @@
     font-style: normal;
 }
 .header input{
-    float: none;
+    float: none;  /*none is the tag*/
     width: 40%;
     height: 25px;
     display:inline-block;
