@@ -134,7 +134,7 @@ span a{
 
 .post h2{
     color:darkmagenta;
-    font-style:oblique;
+    font-style:oblique;/*post color is darkmagenta*/
 }
 .post h3{
     color:brown;
