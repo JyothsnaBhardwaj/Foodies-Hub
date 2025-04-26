@@ -9,7 +9,7 @@
 .header p{
     font-family: Garamond, serif;
     font-size: 200%;
-    text-align: left;
+    text-align: left;       /*left text allignment*/
 }
 .header div a{
     display: inline;
