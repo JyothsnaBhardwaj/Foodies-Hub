@@ -155,7 +155,7 @@ span a{
 
 .comment {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 10px; /*border radius*/
     border: 1px solid #ddd;
     border-radius: 5px;
 }
