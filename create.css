@@ -3,13 +3,13 @@
     height: 130px;
     margin: auto;
     color:rgb(75, 15, 15);
-    text-align: center;
+    text-align: center;    /*centre alignment*/
 }
 /*header tag*/
 .header p{
     font-family: Garamond, serif;
     font-size: 200%;
-    text-align: left;
+    text-align: left;       /*left text allignment*/
 }
 .header div a{
     display: inline;
@@ -45,10 +45,10 @@
     height: 30px;
     text-align: center;
     padding: 10px;
-    color: blue;
+    color: blue;     /*blue colour*/
 }
 header form{
-    border: 3px solid #f1f1f1;
+    border: 3px solid #f1f1f1; /*solid header text*/
     height: fit-content;
     width: fit-content;
     box-shadow: #ccc;
@@ -59,7 +59,7 @@ form input[type=text], input[type=password]{/*layout for input box*/
     width:100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;  /*inline block is the displayy*/
+    display: inline-block;  
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -68,7 +68,7 @@ form button{
     background-color: paleturquoise;
     color: blue;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 0; /*margin tag*/
     border: none;
     cursor: pointer;
     width: 100%;
@@ -77,12 +77,12 @@ form button{
 
 form button:hover {
     opacity: 0.8;
-}
+} /*form nutton hover board*/
 
 .cancelbtn{ /*For designing of cancel button*/
     width:auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #f44336;  
 }
 
 form div{
@@ -96,7 +96,7 @@ span.psw { /*For enter various box dimensions*/
 }
 
 span a{
-    text-decoration: none;
+    text-decoration: none; /*text decoration is none */
 }
   
 .content{
@@ -115,7 +115,7 @@ span a{
 #mybtn{
     padding: 15px 25px;
     cursor: pointer;
-    color: darkblue;
+    color: darkblue;    /*darkblue*/
     border-radius: 8px;
 }
 
@@ -134,7 +134,7 @@ span a{
 
 .post h2{
     color:darkmagenta;
-    font-style:oblique;
+    font-style:oblique;/*post color is darkmagenta*/
 }
 .post h3{
     color:brown;
@@ -147,7 +147,7 @@ span a{
     margin-top: 20px;
 }
 
-#comments-container {
+#comments-container { /*container tag in comments*/
     margin-top: 10px;
     border-top: 1px solid #ccc;
     padding-top: 10px;
@@ -155,7 +155,7 @@ span a{
 
 .comment {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 10px; /*border radius*/
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -166,7 +166,7 @@ span a{
 }
 
 #comment-input {
-    padding: 10px;
+    padding: 10px;  /*padding is 10px in comment input */
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -177,7 +177,7 @@ button {
     background-color:paleturquoise ;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; /*border radius is 5px*/
     cursor: pointer;
 }
 
@@ -185,7 +185,7 @@ footer{
     background-color: rgb(250, 196, 59);
     height:50px;
     margin: auto;
-    text-align: center;
+    text-align: center; /*text is aligned to centre*/
     color:rgb(75, 15, 15);
     padding-top: 1px;
     font-size: 20px;
@@ -204,7 +204,7 @@ footer{
     background-color: rgb(75, 15, 15);
     color: #f1f1f1;
     border-radius: 10px;
-    overflow: auto;
+    overflow: auto; 
     margin: auto;
     text-align: center;
     width: 60%;
@@ -223,15 +223,16 @@ footer{
 
 .form-box{  /*design for form box for login page*/
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px; /*form box*/
     box-shadow:  0 0 10px rgba(0, 0, 0,0.1);
     overflow: auto;
     width: 50%;
     top: 50%;
-    background: #f1f1f1;
+    background: #f1f1f1; /*background is auto*/
     margin: auto;
     margin-top: 100px;
 }
+/*at end of the css code*/
 
 
 
