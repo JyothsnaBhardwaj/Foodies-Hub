@@ -203,7 +203,7 @@ footer{
 .about{
     background-color: rgb(75, 15, 15);
     color: #f1f1f1;
-    border-radius: 10px;
+    border-radius: 10px;/*border radius is 10 pixels*/
     overflow: auto; 
     margin: auto;
     text-align: center;
