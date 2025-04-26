@@ -185,7 +185,7 @@ footer{
     background-color: rgb(250, 196, 59);
     height:50px;
     margin: auto;
-    text-align: center;
+    text-align: center; /*text is aligned to centre*/
     color:rgb(75, 15, 15);
     padding-top: 1px;
     font-size: 20px;
