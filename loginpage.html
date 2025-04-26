@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--Adding various meta tags and its attributes -->
     <meta charset="UTF-8">
     <meta name= "viewport" content="width= device-width initial-scale= 1.0">
     <meta name="keyword" content="html, css,">
-    <link rel="stylesheet" href="create.css">
+    <link rel="stylesheet" href="create.css"><!--Linking of stylesheet-->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!--declaring class container under div tag-->
         <form onsubmit="validateLogin(event)" class="form-box">
             <div>
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
-                <small id="username-error" styles="color: red; display:none;"></small>
+                <small id="username-error" styles="color: red; display:none;"></small> <!--user name data-->
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="psw" required> <!--for taking users password-->
                 <small id="password-error" styles="color:red; display:none;"></small>
                 <button type="submit">Login</button>
                 <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input type="checkbox" checked="checked" name="remember"> Remember me <!--Done with user details section-->>
             </label>
             </div>
             <div style="background-color: #f1f1f1">
