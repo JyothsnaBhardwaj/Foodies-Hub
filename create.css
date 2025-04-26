@@ -177,7 +177,7 @@ button {
     background-color:paleturquoise ;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; /*border radius is 5px*/
     cursor: pointer;
 }
 
