@@ -35,7 +35,7 @@
 }
 
 .header a:hover{
-    background-color: antiquewhite;
+    background-color: antiquewhite; /*bgcolour is inputed by user*/
     border-radius: 20%;
 }
 
