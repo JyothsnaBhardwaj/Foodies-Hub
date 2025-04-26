@@ -82,7 +82,7 @@ form button:hover {
 .cancelbtn{
     width:auto;
     padding: 10px 18px;
-    background-color: #f44336;   /*red color*/
+    background-color: #f44336;  
 }
 
 form div{
@@ -204,7 +204,7 @@ footer{
     background-color: rgb(75, 15, 15);
     color: #f1f1f1;
     border-radius: 10px;
-    overflow: auto; /*overflow is auto*/
+    overflow: auto; 
     margin: auto;
     text-align: center;
     width: 60%;
