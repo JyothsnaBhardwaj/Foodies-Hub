@@ -147,7 +147,7 @@ span a{
     margin-top: 20px;
 }
 
-#comments-container {
+#comments-container { /*container tag in comments*/
     margin-top: 10px;
     border-top: 1px solid #ccc;
     padding-top: 10px;
