@@ -45,7 +45,8 @@ function validateLogin(event) {//.
     
     // proceed if input is valid
     if (isValid) {//.
-        window.location.href = "./pages/FEE(project).html";//.
+        // redirect to fee project page
+        window.location.href = "./pages/FEE(project).html";//. 
     }//.
 }//.
 
