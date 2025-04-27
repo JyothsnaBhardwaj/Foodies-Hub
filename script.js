@@ -7,7 +7,7 @@ function validateLogin(event) {
 
     const username = document.getElementById("uname");
     const password = document.getElementById("psw");
-    const usernameError = document.getElementById("username-error");
+    const usernameError = document.getElementById("username-error");//.
     const passwordError = document.getElementById("password-error");//.
 
     //validation flag
