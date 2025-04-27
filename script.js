@@ -1,4 +1,5 @@
 //code
+//js
 // added comments 
 //validate username and password
 
