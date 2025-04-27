@@ -1,7 +1,5 @@
 //code
 //js
-// added comments 
-//validate username and password
 
 //validate username
 const validUsername = "user";//.
@@ -49,6 +47,9 @@ function validateLogin(event) {//.
         // redirect to fee project page
         window.location.href = "./pages/FEE(project).html";//. 
     }//.
+    else{
+        alert("Please check your username and pass.");
+    }
 }//.
 
 
