@@ -34,6 +34,7 @@ function validateLogin(event) {//.
         isValid = false;//.
     }//.
 
+    //check if password is correct
     if (password.value !== validPassword) {//.
         passwordError.textContent = "Invalid Password"; //.
         passwordError.style.display = "block";//.
