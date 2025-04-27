@@ -3,7 +3,7 @@ const validUsername = "user";
 const validPassword = "pass123";
 
 function validateLogin(event) {
-    event.preventDefault();
+    event.preventDefault();//.
 
     const username = document.getElementById("uname");//.
     const password = document.getElementById("psw");//.
