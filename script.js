@@ -11,6 +11,7 @@ function validateLogin(event) {//.
 
     // get username input
     const username = document.getElementById("uname");//.
+    // get password input
     const password = document.getElementById("psw");//.
     const usernameError = document.getElementById("username-error");//.
     const passwordError = document.getElementById("password-error");//.
