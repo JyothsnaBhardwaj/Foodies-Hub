@@ -10,6 +10,7 @@ function validateLogin(event) {
     const usernameError = document.getElementById("username-error");
     const passwordError = document.getElementById("password-error");
 
+    //validation flag
     let isValid = true;
 
     // Reset error messages
