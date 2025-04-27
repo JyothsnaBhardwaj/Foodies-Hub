@@ -9,6 +9,7 @@ const validPassword = "pass123";//.
 function validateLogin(event) {//.
     event.preventDefault();//.
 
+    // get username input
     const username = document.getElementById("uname");//.
     const password = document.getElementById("psw");//.
     const usernameError = document.getElementById("username-error");//.
