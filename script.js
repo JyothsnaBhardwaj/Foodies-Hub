@@ -2,7 +2,7 @@
 const validUsername = "user";
 const validPassword = "pass123";
 
-function validateLogin(event) {
+function validateLogin(event) {//.
     event.preventDefault();//.
 
     const username = document.getElementById("uname");//.
