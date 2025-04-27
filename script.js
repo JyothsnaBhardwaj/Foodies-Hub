@@ -24,7 +24,7 @@ function validateLogin(event) {//.
         usernameError.textContent = "Invalid Username"; //.
         usernameError.style.display = "block";//.
         isValid = false;//.
-    }
+    }//.
 
     if (password.value !== validPassword) {//.
         passwordError.textContent = "Invalid Password"; //.
