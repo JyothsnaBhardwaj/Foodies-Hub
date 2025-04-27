@@ -23,7 +23,7 @@ function validateLogin(event) {
     if (username.value !== validUsername) {
         usernameError.textContent = "Invalid Username"; //.
         usernameError.style.display = "block";//.
-        isValid = false;
+        isValid = false;//.
     }
 
     if (password.value !== validPassword) {
