@@ -11,7 +11,7 @@ function validateLogin(event) {
     const passwordError = document.getElementById("password-error");
 
     //validation flag
-    let isValid = true;
+    let isValid = true;//.
 
     // Reset error messages
     // reset username
