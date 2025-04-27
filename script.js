@@ -16,6 +16,7 @@ function validateLogin(event) {
     // Reset error messages
     // reset username
     usernameError.style.display = "none";
+    // reset password
     passwordError.style.display = "none";
 
     if (username.value !== validUsername) {
