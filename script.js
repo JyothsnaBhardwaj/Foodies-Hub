@@ -1,6 +1,6 @@
 //validate username and password
 const validUsername = "user";
-const validPassword = "pass123";
+const validPassword = "pass123";//.
 
 function validateLogin(event) {//.
     event.preventDefault();//.
