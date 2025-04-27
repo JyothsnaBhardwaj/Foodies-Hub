@@ -34,7 +34,7 @@ function validateLogin(event) {
 
     if (isValid) {//.
         window.location.href = "./pages/FEE(project).html";//.
-    }
+    }//.
 }
 
 
