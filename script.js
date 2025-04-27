@@ -30,7 +30,7 @@ function validateLogin(event) {//.
         passwordError.textContent = "Invalid Password"; //.
         passwordError.style.display = "block";//.
         isValid = false;//.
-    }
+    }//.
 
     if (isValid) {//.
         window.location.href = "./pages/FEE(project).html";//.
