@@ -18,6 +18,7 @@ function validateLogin(event) {
     usernameError.style.display = "none";
     // reset password
     passwordError.style.display = "none";
+    //.
 
     if (username.value !== validUsername) {
         usernameError.textContent = "Invalid Username";
@@ -26,7 +27,7 @@ function validateLogin(event) {
     }
 
     if (password.value !== validPassword) {
-        passwordError.textContent = "Invalid Password";
+        passwordError.textContent = "Invalid Password"; 
         passwordError.style.display = "block";
         isValid = false;
     }
