@@ -1,36 +1,55 @@
-const validUsername = "user";
-const validPassword = "pass123";
+//code
+//js
+// added comments 
+//validate username and password
 
-function validateLogin(event) {
-    event.preventDefault();
+//validate username
+const validUsername = "user";//.
+//validate password
+const validPassword = "pass123";//.
 
-    const username = document.getElementById("uname");
-    const password = document.getElementById("psw");
-    const usernameError = document.getElementById("username-error");
-    const passwordError = document.getElementById("password-error");
+// login form validation
+function validateLogin(event) {//.
+    event.preventDefault();//.
 
-    let isValid = true;
+    // get username input
+    const username = document.getElementById("uname");//.
+    // get password input
+    const password = document.getElementById("psw");//.
+    // get username error display element
+    const usernameError = document.getElementById("username-error");//.
+    // get password error display element
+    const passwordError = document.getElementById("password-error");//.
+
+    //validation flag
+    let isValid = true;//.
 
     // Reset error messages
-    usernameError.style.display = "none";
-    passwordError.style.display = "none";
+    // reset username
+    usernameError.style.display = "none";//.
+    // reset password
+    passwordError.style.display = "none";//.
+    //.
+    //check if username is correct
+    if (username.value !== validUsername) {//.
+        usernameError.textContent = "Invalid Username"; //.
+        usernameError.style.display = "block";//.
+        isValid = false;//.
+    }//.
 
-    if (username.value !== validUsername) {
-        usernameError.textContent = "Invalid Username";
-        usernameError.style.display = "block";
-        isValid = false;
-    }
-
-    if (password.value !== validPassword) {
-        passwordError.textContent = "Invalid Password";
-        passwordError.style.display = "block";
-        isValid = false;
-    }
-
-    if (isValid) {
-        window.location.href = "./pages/FEE(project).html";
-    }
-}
+    //check if password is correct
+    if (password.value !== validPassword) {//.
+        passwordError.textContent = "Invalid Password"; //.
+        passwordError.style.display = "block";//.
+        isValid = false;//.
+    }//.
+    
+    // proceed if input is valid
+    if (isValid) {//.
+        // redirect to fee project page
+        window.location.href = "./pages/FEE(project).html";//. 
+    }//.
+}//.
 
 
 
