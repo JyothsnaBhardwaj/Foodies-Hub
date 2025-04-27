@@ -32,7 +32,7 @@ function validateLogin(event) {
         isValid = false;//.
     }
 
-    if (isValid) {
+    if (isValid) {//.
         window.location.href = "./pages/FEE(project).html";
     }
 }
