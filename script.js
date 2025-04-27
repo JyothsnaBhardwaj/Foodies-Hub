@@ -14,6 +14,7 @@ function validateLogin(event) {
     let isValid = true;
 
     // Reset error messages
+    // reset username
     usernameError.style.display = "none";
     passwordError.style.display = "none";
 
