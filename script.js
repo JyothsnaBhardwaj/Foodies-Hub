@@ -1,6 +1,3 @@
-//code
-//js
-
 //validate username
 const validUsername = "user";//.
 //validate password
