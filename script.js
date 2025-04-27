@@ -1,5 +1,5 @@
 //code
-
+// added comments 
 //validate username and password
 
 //validate username
