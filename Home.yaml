@@ -1,0 +1,26 @@
+# Foodies Hub Configuration
+
+site:
+  name: Foodies Hub
+  description: A blog for delicious recipes and food experiences.
+  url: https://www.foodieshub.com
+
+contributors:
+  - name: Jyothsna
+    role: Project manager
+
+  - name: Vidhita
+    role: Content writer
+
+  - name: Monika
+    role: Graphic designer
+
+  - name: Nandita
+    role: Graphic designer
+
+  - name: Mahima
+    role: Back-end
+
+posts:
+  - title: "Pizza, Pasta, Wai-Wai, Momos"
+    author: Vidhita 
